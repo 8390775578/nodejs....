@@ -1,0 +1,8 @@
+const names = require('./file2')
+const func = require('./file1')
+func('i am top secret')
+func(names.rohan)
+func(names.ameya)
+const mayu=require('./file4')
+console.log(mayu)
+require('./file6')
